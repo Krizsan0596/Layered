@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class TextScript : MonoBehaviour
 {
+    public Text text;
     // Start is called before the first frame update
     void Start()
     {
-        
+        text.text = "";
     }
 
     // Update is called once per frame
